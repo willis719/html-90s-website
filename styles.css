@@ -1,0 +1,100 @@
+body {
+    background-image: url(images/background4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: url(https://cur.cursors-4u.net/toons/too-12/too1107.cur), auto !important;
+}
+
+
+
+.title {
+    margin: 5% 0 0 53%;
+    color: #CFB53B;
+}
+
+
+
+.nav {
+    margin: 0 0 0 23%;
+    list-style-type: none;
+    color: black;
+    
+}
+
+.topics {
+    float: left;
+    margin: 0 15px 0 15px;
+    color: #CFB53B;
+}
+
+.nick-logo {
+    width: 20%;
+    margin: 3% 40% 0 18%;
+}
+
+.cn-logo {
+    width: 20%;
+    margin: 0 40% 0 18%;
+    height: 104.92px;
+}
+
+.disney-logo {
+    width: 20%;
+    margin: 0 40% 0 18%;
+    height: 104.92px;
+}
+
+.logos {
+    margin: 0 0 0 38%;
+    position: relative;
+    bottom: 303px;
+    height: 300px;
+}
+
+.body {
+    margin: 0 0 0 10%;
+}
+
+.sector2 {
+    margin-left: 43%;
+    margin-top: -10%;
+    color: #CFB53B;
+}
+
+.true-battle {
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.toon1 {
+    width: 25%;
+    height: 257.48px;
+}
+
+.toon2 {
+    width: 25%;
+    height: 257.48px;
+    margin-left: 100px;
+}
+
+.toon3 {
+    width: 25%;
+    margin-left: 100px;
+}
+
+.pics {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.toon4, .toon5, .toon6 {
+    width: 426px;
+    margin-left: 100px;
+    height: 257.48px;
+}
+
+
+
+
+
+

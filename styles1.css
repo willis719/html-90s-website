@@ -1,0 +1,130 @@
+body {
+    background-color: #A5A9A0;
+    cursor: url(https://cur.cursors-4u.net/toons/too-12/too1105.cur), auto !important;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:black;
+}
+
+.title {
+    margin: 5% 0 0 53%;
+    color: #CFB53B;
+}
+
+.header {
+    
+}
+
+
+.nav {
+    margin: 0 0 0 23%;
+    list-style-type: none;
+    color: black;
+    
+}
+
+.topics {
+    float: left;
+    margin: 0 15px 0 15px;
+    color: #CFB53B;
+}
+
+.pics {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pics div {
+    position: absolute;
+    display: block;
+}
+
+.pics div:nth-child(1) {
+    left: 20%;
+    animation: fall 15s linear infinite;
+    animation-delay: -2s;
+}
+
+.pics div:nth-child(2) {
+    left: 70%;
+    animation: fall 15s linear infinite;
+    animation-delay: -4s;
+}
+
+.pics div:nth-child(3) {
+    left: 10%;
+    animation: fall 20s linear infinite;
+    animation-delay: -7s;
+}
+
+.pics div:nth-child(4) {
+    left: 50%;
+    animation: fall 18s linear infinite;
+    animation-delay: -5s;
+}
+
+.pics div:nth-child(5) {
+    left: 85%;
+    animation: fall 14s linear infinite;
+    animation-delay: -5s;
+}
+
+.pics div:nth-child(6) {
+    left: 15%;
+    animation: fall 16s linear infinite;
+    animation-delay: -10s;
+}
+
+.pics div:nth-child(7) {
+    left: 90%;
+    animation: fall 15s linear infinite;
+    animation-delay: -4s;
+}
+
+@keyframes fall{
+    0% {
+        opacity: 1;
+        top: -10%;
+        transform: translateX(20px)
+rotate(0deg);
+    }
+    20% {
+        opacity: 0.8;
+        transform:translateX(-20px)
+rotate(45deg);
+    }
+    40% {
+        transform:translateX(-20px)
+rotate(90deg);
+    }
+    60% {
+        transform: translateX(-20px);
+rotate:(135deg);
+    }
+    80%{
+    
+        transform:translateX (-20px) rotate(180deg)
+rotate(180deg);
+    }
+    100%{
+        
+        top:110%;
+        transform:translateX (-20px) rotate(225deg);
+rotate:(225deg);
+}
+}
+
+.pics2 {
+    transform: rotateX(180deg);
+}
+
+
+
+
+
+
+
